@@ -10,6 +10,11 @@
       "file": ".github/copilot-instructions.md"
     }
   ],
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".github/instructions/commit-messages.instructions.md"
+    }
+  ],
   "github.copilot.chat.localeOverride": "en",
   "github.copilot.chat.edits.temporalContext.enabled": true,
   "editor.inlineSuggest.enabled": true,
