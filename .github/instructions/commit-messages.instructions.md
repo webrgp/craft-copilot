@@ -1,7 +1,3 @@
----
-applyTo: ".git/**"
----
-
 # Craft CMS Commit Message Guidelines
 
 ## Format Structure
