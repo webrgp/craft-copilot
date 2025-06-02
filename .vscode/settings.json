@@ -40,11 +40,5 @@
     "**/storage/logs": true,
     "**/web/cpresources": true,
     "**/vendor": true
-  },
-  "emmet.includeLanguages": {
-    "twig": "html"
-  },
-  "files.associations": {
-    "*.twig": "twig"
   }
 }
