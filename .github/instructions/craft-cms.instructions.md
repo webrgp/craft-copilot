@@ -1,0 +1,66 @@
+---
+applyTo: "**/*.php,**/composer.json,**/*.twig"
+---
+
+# Craft CMS Coding Guidelines
+
+## PHP Code Style (PSR-12 + Craft Standards)
+
+### Basic Formatting
+- Use PSR-12 coding standards as the foundation
+- Use trailing commas in multi-line arrays and method definitions
+- Place chained method calls on separate lines
+- Use strict comparison operators (`===` and `!==`)
+- Use single quotes by default for strings
+- Initialize arrays explicitly
+
+### Type Declarations
+- Declare method argument and return types whenever possible
+- Use `(int)` and `(float)` for type casting
+- Use union types and `mixed` type when appropriate
+- Specify array member class names when it makes sense
+
+### Naming Conventions
+- Namespaces should be lowercase
+- Getter methods without arguments should start with `get`
+- Private properties should begin with an underscore
+- Use interfaces in docblock type declarations
+
+### Class Structure
+- Use `self::` for referencing private static methods
+- Follow Craft's service pattern for plugin architecture
+- Extend appropriate Craft base classes (`craft\base\Plugin`, `craft\base\Element`, etc.)
+
+### Docblocks
+- Use full sentences with proper capitalization and punctuation
+- Use `@inheritdoc` for overridden methods
+- Use `bool` and `int` instead of `boolean` and `integer`
+- Document all public methods with proper `@param` and `@return` tags
+
+### Control Flow
+- Use "happy path" control flow patterns
+- Avoid unnecessary `else` statements when possible
+- Return early from methods to reduce nesting
+
+### Craft-Specific Patterns
+- Controllers should return Response objects or strings
+- Use Yii's declarative condition syntax for database queries
+- Follow Craft's event system patterns for plugin hooks
+- Use Craft's dependency injection container appropriately
+
+## Twig Templates
+
+### Structure
+- Follow Craft's template hierarchy and naming conventions
+- Use proper template inheritance with `{% extends %}` and `{% include %}`
+- Implement responsive design patterns
+
+### Performance
+- Use `{% cache %}` tags appropriately
+- Optimize Element queries with proper criteria
+- Use asset transforms for responsive images
+
+### Content
+- Use Craft's Element queries (`craft.entries`, `craft.assets`)
+- Handle Matrix fields and Relations properly
+- Implement proper pagination patterns
