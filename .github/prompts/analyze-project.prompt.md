@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Analyze the entire project structure and provide insights
+mode: 'agent'
+tools: ['codebase']
+description: 'Analyze the entire project structure and provide insights'
 ---
 
 # Project Analysis

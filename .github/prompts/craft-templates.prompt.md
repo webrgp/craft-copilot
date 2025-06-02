@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Work with Craft CMS Twig templates
+mode: 'agent'
+tools: ['codebase']
+description: 'Work with Craft CMS Twig templates'
 ---
 
 # Craft CMS Template Development

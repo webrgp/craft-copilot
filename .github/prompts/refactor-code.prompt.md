@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Refactor code while maintaining functionality
+mode: 'agent'
+tools: ['codebase']
+description: 'Refactor code while maintaining functionality'
 ---
 
 # Code Refactoring

@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Configure Craft CMS project settings and environment
+mode: 'agent'
+tools: ['codebase']
+description: 'Configure Craft CMS project settings and environment'
 ---
 
 # Craft CMS Configuration Setup

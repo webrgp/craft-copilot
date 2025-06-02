@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Implement a new feature end-to-end
+mode: 'agent'
+tools: ['codebase']
+description: 'Implement a new feature end-to-end'
 ---
 
 # Feature Implementation

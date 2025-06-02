@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Create or modify Craft CMS Element Types
+mode: 'agent'
+tools: ['codebase']
+description: 'Create or modify Craft CMS Element Types'
 ---
 
 # Craft CMS Element Type Development

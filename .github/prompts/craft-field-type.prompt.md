@@ -1,14 +1,14 @@
 ---
-mode: chat
-tools: [codebase]
-description: Create or modify Craft CMS Field Types
+mode: 'agent'
+tools: ['codebase']
+description: 'Create or modify Craft CMS Field Types'
 ---
 
 # Craft CMS Field Type Development
 
 Create or modify a Craft CMS Field Type with full functionality:
 
-1. **Field Type Class**: 
+1. **Field Type Class**:
    - Extend `craft\base\Field` or appropriate base class
    - Implement required abstract methods (`normalizeValue`, `getInputHtml`, etc.)
    - Handle value validation and normalization

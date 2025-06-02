@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Create a new Craft CMS plugin from scratch
+mode: 'agent'
+tools: ['codebase']
+description: 'Create a new Craft CMS plugin from scratch'
 ---
 
 # Create Craft CMS Plugin

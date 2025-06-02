@@ -1,7 +1,7 @@
 ---
-mode: chat
-tools: [codebase]
-description: Debug and fix issues systematically
+mode: 'agent'
+tools: ['codebase']
+description: 'Debug and fix issues systematically'
 ---
 
 # Debug and Fix
