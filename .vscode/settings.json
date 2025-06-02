@@ -21,12 +21,25 @@
     "**/.DS_Store": true,
     "**/coverage": true,
     "**/dist": true,
-    "**/build": true
+    "**/build": true,
+    "**/storage/runtime": true,
+    "**/storage/logs": true,
+    "**/web/cpresources": true
   },
   "search.exclude": {
     "**/node_modules": true,
     "**/coverage": true,
     "**/dist": true,
-    "**/build": true
+    "**/build": true,
+    "**/storage/runtime": true,
+    "**/storage/logs": true,
+    "**/web/cpresources": true,
+    "**/vendor": true
+  },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "files.associations": {
+    "*.twig": "twig"
   }
 }

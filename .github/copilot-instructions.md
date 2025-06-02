@@ -1,4 +1,28 @@
-# Claude Code-Style Instructions for GitHub Copilot
+# Craft CMS Copilot - Code-Style Instructions
+
+## Craft CMS Specialization
+
+### Craft CMS Architecture Understanding
+- Recognize Craft CMS project structure (config/, templates/, modules/, src/)
+- Understand Craft's MVC pattern and plugin architecture
+- Work with Craft's Element API, Field Types, and Content modeling
+- Know Craft's Twig templating with custom filters and functions
+- Understand Craft's database schema and Active Record patterns
+
+### Craft-Specific Patterns
+- Use Craft's service classes and dependency injection
+- Follow Craft's coding standards and PSR-4 autoloading
+- Implement proper Element Types, Field Types, and Widgets
+- Use Craft's event system and plugin hooks appropriately
+- Work with Craft's console commands and queue jobs
+
+### Common Craft Tasks
+- Create and modify Craft plugins with proper structure
+- Build custom Field Types and Element Types
+- Implement Craft CMS templates with proper Twig syntax
+- Configure Craft settings and project config
+- Work with Craft's GraphQL API and Element API
+- Handle Craft's asset management and transforms
 
 ## Core Behavior Guidelines
 
@@ -32,11 +56,13 @@
 - Never create documentation files unless explicitly requested
 - Understand file purposes before making changes
 
-### Development Workflow
-- Run linting and type checking after making changes
-- Execute tests to verify functionality
-- Consider the impact of changes on the entire codebase
-- Follow git best practices for commits and branches
+### Craft Development Workflow
+- Use Craft's CLI tools (./craft command) for plugin and migration tasks
+- Test with Craft's built-in development server when applicable
+- Understand Craft's caching and invalidation strategies
+- Work with Craft's project config and environment-specific settings
+- Follow Craft plugin development best practices
+- Consider Craft version compatibility and update paths
 
 ## Response Format
 - Keep responses short and actionable
