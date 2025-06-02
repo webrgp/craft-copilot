@@ -1,15 +1,4 @@
-# General
 /.env
 /.idea
 /vendor
 .DS_Store
-
-# Craft CMS
-/storage/backups
-/storage/composer-backups
-/storage/config-backups
-/storage/logs
-/storage/runtime
-
-# Claude
-.claude

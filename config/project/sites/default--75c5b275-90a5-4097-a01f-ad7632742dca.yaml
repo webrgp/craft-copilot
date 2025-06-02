@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'Craft Copilot'
+primary: true
+siteGroup: 36bf75f8-4532-448b-90e9-70a328a9d23c # Craft Copilot
+sortOrder: 1
