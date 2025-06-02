@@ -15,6 +15,11 @@
       "file": ".github/instructions/commit-messages.instructions.md"
     }
   ],
+  "github.copilot.chat.reviewSelection.instructions": [
+    {
+      "file": ".github/instructions/code-review.instructions.md"
+    }
+  ],
   "github.copilot.chat.localeOverride": "en",
   "github.copilot.chat.edits.temporalContext.enabled": true,
   "editor.inlineSuggest.enabled": true,
