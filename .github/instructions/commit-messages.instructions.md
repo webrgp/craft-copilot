@@ -1,4 +1,7 @@
-# Craft CMS Commit Message Guidelines
+# Craft Copilot Project Commit Message Guidelines
+
+## Project Context
+This is a fresh Craft CMS 5.7.0 installation with DDEV development environment, designed as a drop-in enhancement for Craft CMS projects to improve developer experience with AI-powered tools.
 
 ## Format Structure
 Use conventional commit format with Craft CMS specific types:
@@ -19,6 +22,8 @@ Use conventional commit format with Craft CMS specific types:
 - **template**: Template updates or new Twig templates
 - **plugin**: Plugin-specific changes or updates
 - **migration**: Database migrations or project config updates
+- **copilot**: Changes to AI/Copilot configuration and prompts
+- **ddev**: DDEV environment and containerization changes
 - **style**: Code style changes (no functionality change)
 - **refactor**: Code refactoring without feature changes
 - **perf**: Performance improvements
@@ -27,7 +32,11 @@ Use conventional commit format with Craft CMS specific types:
 - **chore**: Build process, dependencies, or maintenance tasks
 
 ## Scope Examples
-- **plugin-name**: Specific plugin (e.g., `commerce`, `seomatic`)
+- **instructions**: Copilot instruction files and guidelines
+- **prompts**: Prompt templates and configurations
+- **vscode**: VSCode settings and extensions
+- **ddev**: DDEV configuration and environment
+- **craft5**: Craft CMS 5.x specific features
 - **admin**: Control panel or admin-related changes
 - **frontend**: Public-facing templates or functionality
 - **api**: GraphQL, Element API, or REST endpoints

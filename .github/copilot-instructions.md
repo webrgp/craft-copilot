@@ -1,28 +1,45 @@
 # Craft CMS Copilot - Code-Style Instructions
 
-## Craft CMS Specialization
+## Craft CMS Project Specialization
 
-### Craft CMS Architecture Understanding
-- Recognize Craft CMS project structure (config/, templates/, modules/, src/)
+### Current Project Context
+- **Craft CMS 5.7.0** fresh installation with Solo edition
+- **PHP 8.2** platform requirement
+- **DDEV** development environment setup
+- **Project Config** enabled with YAML-based configuration
+- **Single Site** setup named "Craft Copilot"
+- **Timezone**: America/Los_Angeles
+
+### Craft CMS 5.x Architecture Understanding
+- Recognize modern Craft 5.x project structure (config/, templates/, web/, storage/)
 - Understand Craft's MVC pattern and plugin architecture
 - Work with Craft's Element API, Field Types, and Content modeling
 - Know Craft's Twig templating with custom filters and functions
 - Understand Craft's database schema and Active Record patterns
+- Use Project Config for environment synchronization
 
-### Craft-Specific Patterns
-- Use Craft's service classes and dependency injection
-- Follow Craft's coding standards and PSR-4 autoloading
+### Craft 5.x Specific Patterns
+- Use Craft's service classes and dependency injection container
+- Follow Craft's PSR-12 coding standards and PSR-4 autoloading
 - Implement proper Element Types, Field Types, and Widgets
 - Use Craft's event system and plugin hooks appropriately
-- Work with Craft's console commands and queue jobs
+- Work with Craft's console commands (`./craft`) and queue jobs
+- Leverage Craft 5.x performance improvements and new APIs
 
-### Common Craft Tasks
-- Create and modify Craft plugins with proper structure
+### Development Environment
+- Use DDEV commands for database and environment management
+- Work with environment-specific config files (.env.example.dev, .env.example.staging, .env.example.production)
+- Understand Craft's caching strategies and invalidation
+- Use Craft CLI tools for migrations and plugin management
+
+### Common Project Tasks
+- Create and modify Craft plugins with proper Craft 5.x structure
 - Build custom Field Types and Element Types
 - Implement Craft CMS templates with proper Twig syntax
-- Configure Craft settings and project config
+- Configure Craft settings and sync via project config
 - Work with Craft's GraphQL API and Element API
 - Handle Craft's asset management and transforms
+- Create sections, entry types, and field layouts
 
 ## Core Behavior Guidelines
 
@@ -57,12 +74,13 @@
 - Understand file purposes before making changes
 
 ### Craft Development Workflow
-- Use Craft's CLI tools (./craft command) for plugin and migration tasks
-- Test with Craft's built-in development server when applicable
+- Use Craft's CLI tools (`./craft` command) for plugin and migration tasks
+- Use DDEV commands (`ddev craft`, `ddev composer`) for containerized development
 - Understand Craft's caching and invalidation strategies
 - Work with Craft's project config and environment-specific settings
-- Follow Craft plugin development best practices
-- Consider Craft version compatibility and update paths
+- Follow Craft 5.x plugin development best practices
+- Ensure compatibility with Craft CMS 5.7.0 and PHP 8.2
+- Sync project config changes across environments
 
 ## Response Format
 - Keep responses short and actionable

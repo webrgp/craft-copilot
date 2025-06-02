@@ -2,9 +2,15 @@
 applyTo: "**/*.php,**/composer.json,**/*.twig"
 ---
 
-# Craft CMS Coding Guidelines
+# Craft CMS 5.7.0 Project Coding Guidelines
 
-## PHP Code Style (PSR-12 + Craft Standards)
+## Project Context
+- **Craft CMS 5.7.0** Solo Edition
+- **PHP 8.2** with modern features enabled
+- **DDEV** containerized development environment
+- **Project Config** enabled for environment synchronization
+
+## PHP Code Style (PSR-12 + Craft 5.x Standards)
 
 ### Basic Formatting
 - Use PSR-12 coding standards as the foundation
@@ -14,10 +20,11 @@ applyTo: "**/*.php,**/composer.json,**/*.twig"
 - Use single quotes by default for strings
 - Initialize arrays explicitly
 
-### Type Declarations
+### Type Declarations (PHP 8.2 Features)
 - Declare method argument and return types whenever possible
 - Use `(int)` and `(float)` for type casting
-- Use union types and `mixed` type when appropriate
+- Leverage PHP 8.2 union types, intersection types, and `mixed` type
+- Use readonly properties and classes where appropriate
 - Specify array member class names when it makes sense
 
 ### Naming Conventions
@@ -42,11 +49,14 @@ applyTo: "**/*.php,**/composer.json,**/*.twig"
 - Avoid unnecessary `else` statements when possible
 - Return early from methods to reduce nesting
 
-### Craft-Specific Patterns
+### Craft 5.x Specific Patterns
 - Controllers should return Response objects or strings
 - Use Yii's declarative condition syntax for database queries
 - Follow Craft's event system patterns for plugin hooks
 - Use Craft's dependency injection container appropriately
+- Leverage Craft 5.x performance improvements and new APIs
+- Use Project Config for environment synchronization
+- Follow DDEV containerized development practices
 
 ## Twig Templates
 
