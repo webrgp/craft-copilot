@@ -12,7 +12,6 @@ A drop-in enhancement for Craft CMS projects that supercharges GitHub Copilot wi
 2. Install recommended VSCode extensions:
    - GitHub Copilot
    - GitHub Copilot Chat
-   - Twig Language 2
 
 3. Restart VSCode and enjoy enhanced AI assistance!
 
@@ -26,7 +25,7 @@ A drop-in enhancement for Craft CMS projects that supercharges GitHub Copilot wi
 Access via Command Palette → "Chat: Open Prompt Library":
 
 - **craft-plugin-create** - Generate complete Craft plugins
-- **craft-field-type** - Create custom Field Types  
+- **craft-field-type** - Create custom Field Types
 - **craft-element-type** - Build custom Element Types
 - **craft-templates** - Develop Twig templates with Craft patterns
 - **craft-config-setup** - Configure environments and deployment
@@ -58,6 +57,6 @@ Access via Command Palette → "Chat: Open Prompt Library":
 ## Benefits
 
 - **Faster Development** - AI understands Craft patterns and completes entire features
-- **Better Code Quality** - Follows Craft best practices and coding standards  
+- **Better Code Quality** - Follows Craft best practices and coding standards
 - **Reduced Context Switching** - AI proactively handles implementation details
 - **Craft Expertise** - Deep knowledge of Element API, Twig, plugins, and architecture
